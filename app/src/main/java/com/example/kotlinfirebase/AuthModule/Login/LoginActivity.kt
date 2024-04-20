@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
         findIds()
-        uiFunction.setUpFunction(this@LoginActivity, logo)
+        uiFunction.setUpLogoFunction(this@LoginActivity, logo)
     }
 
     fun findIds() {

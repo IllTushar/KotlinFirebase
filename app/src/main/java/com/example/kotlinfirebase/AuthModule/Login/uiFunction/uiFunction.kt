@@ -7,7 +7,7 @@ import com.example.kotlinfirebase.R
 
 object uiFunction {
 
-    fun setUpFunction(context: Context, logo: ImageView) {
+    fun setUpLogoFunction(context: Context, logo: ImageView) {
         Glide.with(context)
             .asGif()
             .load(R.raw.firebase_logo)
