@@ -15,7 +15,11 @@
         android:theme="@style/Theme.KotlinFirebase"
         tools:targetApi="31">
         <activity
-            android:name=".AuthModule.RegisterActivity"
+            android:name=".Dashboard.DashBoardActivity"
+            android:exported="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".AuthModule.Register.RegisterActivity"
             android:exported="true"
             android:launchMode="singleTask" />
         <activity
